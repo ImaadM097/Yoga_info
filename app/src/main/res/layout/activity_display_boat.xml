@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayBoat">
+
+    <ImageView
+        android:id="@+id/dboatimg"
+        android:layout_width="233dp"
+        android:layout_height="276dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="89dp"
+        android:src="@drawable/dboat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="160dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/naukasana"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dboatimg" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="330dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="66dp"
+        android:text="This yoga pose is useful for people with a hernia. It also strengthens the back and abdominal muscles. You can practice this asana by taking a deep breath in and as you exhale, lift your chest and feet off the ground, stretching your arms towards your feet."
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

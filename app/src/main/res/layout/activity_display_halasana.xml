@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayHalasana">
+
+    <ImageView
+        android:id="@+id/dhalasanaimg"
+        android:layout_width="233dp"
+        android:layout_height="276dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="89dp"
+        android:src="@drawable/halasana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="145dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="15dp"
+        android:text="HALASANA"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dhalasanaimg" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="325dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="78dp"
+        android:text="The pose is entered from Sarvangasana lowering the back slightly for balance, and moving the arms and legs over the head until the outstretched toes touch the ground and the fingertips, in a preparatory variant of the pose."
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
